@@ -69,16 +69,25 @@
     }
 
     .nav-links a {
-      color: var(--muted);
+      color: var(--text);
       text-decoration: none;
-      font-size: 0.85rem;
-      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      padding: 0.5rem 1.1rem;
+      border: 1.5px solid var(--border);
+      background: var(--surface);
+      box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+      letter-spacing: 0.01em;
       transition: all 0.2s;
     }
 
     .nav-links a:hover { 
       color: var(--accent);
       background: var(--accent-dim);
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(37,99,235,0.18);
+      transform: translateY(-1px);
     }
 
     /* ── HERO ── */
@@ -933,7 +942,7 @@
           <span class="contact-link-icon">✉</span>
           <span class="contact-link-text">
             <span class="contact-link-label">Email</span>
-            <span class="contact-link-value">marcelo.deleon.alvarez@gmail.com</span>
+            <span class="contact-link-value"><span class="__cf_email__" data-cfemail="1d707c6f7e78717233797871787273337c716b7c6f78675d7a707c7471337e7270">[email&#160;protected]</span></span>
           </span>
         </a>
         <a class="contact-link">
@@ -968,12 +977,4 @@
         </div>
         <div class="fact-card">
           <p class="fact-label">Preferred Role</p>
-          <p class="fact-value">Data · Logistics · Ops</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<foot
+          <p class="fact-value">Data 
